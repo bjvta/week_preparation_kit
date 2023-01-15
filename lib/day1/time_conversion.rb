@@ -15,3 +15,11 @@ def conversion_time(data)
     end
     numbers.join(':')
 end
+
+
+def findMedian(arr)
+    arr = arr.sort
+    print(arr)
+    med = (arr.count + 1) / 2
+    arr[med]
+end
