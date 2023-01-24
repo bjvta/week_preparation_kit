@@ -17,8 +17,6 @@ def solution(arr)
     print(arr)
   end
 
-  byebug
-
   counter.each do |key, value|
     if value > 2
       return 'Too chaotic'
@@ -55,8 +53,6 @@ def solution_2 arr
       return 'Too chaotic'
     end
   end
-
-  byebug
 
   total = counter.map { |h| h[1] }.sum
   total / 2
